@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoleChudes.Android", "PoleChudes\PoleChudes.Android\PoleChudes.Android.csproj", "{F6C20ED2-7C78-4B71-A53D-FD6E9E72C5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoleChudes", "PoleChudes\PoleChudes\PoleChudes.csproj", "{330EFB7A-F0A4-4BFB-8304-4B2F35605679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C20ED2-7C78-4B71-A53D-FD6E9E72C5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C20ED2-7C78-4B71-A53D-FD6E9E72C5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C20ED2-7C78-4B71-A53D-FD6E9E72C5E1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F6C20ED2-7C78-4B71-A53D-FD6E9E72C5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C20ED2-7C78-4B71-A53D-FD6E9E72C5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C20ED2-7C78-4B71-A53D-FD6E9E72C5E1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{330EFB7A-F0A4-4BFB-8304-4B2F35605679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330EFB7A-F0A4-4BFB-8304-4B2F35605679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330EFB7A-F0A4-4BFB-8304-4B2F35605679}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{330EFB7A-F0A4-4BFB-8304-4B2F35605679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330EFB7A-F0A4-4BFB-8304-4B2F35605679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330EFB7A-F0A4-4BFB-8304-4B2F35605679}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {433C05A1-CF13-4EF4-AF8B-8E240AB95691}
+	EndGlobalSection
+EndGlobal

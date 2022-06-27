@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+    <Shell 
+       xmlns:llc ="clr-namespace:PoleChudes.Views"
+            xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PoleChudes.AppShell"
+       
+       Title="Govno">
+
+
+        <Shell.Resources>
+           <!-- <ResourceDictionary>
+                <Style x:Key="BaseStyle" TargetType="Element">
+                    <Setter Property="Shell.BackgroundColor" Value="Gray" />
+                    <Setter Property="Shell.ForegroundColor" Value="White" />
+                    <Setter Property="Shell.TitleColor" Value="White" />
+                    <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                    <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                    <Setter Property="Shell.TabBarBackgroundColor" Value="Gray" />
+                    <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
+                    <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+                    <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                </Style>
+                <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+                <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+                <Style TargetType="TabbedPage" BasedOn="{StaticResource BaseStyle }">
+                </Style>
+            </ResourceDictionary> -->
+        </Shell.Resources>
+
+
+        <ShellItem x:Name="LoginStart">
+            <ShellContent  ContentTemplate="{DataTemplate llc:LoginPage}" />
+        </ShellItem>
+
+    <ShellContent  ContentTemplate="{DataTemplate llc:MainPage}" Route="MainPage" />
+    <ShellContent  ContentTemplate="{DataTemplate llc:Reg}" Route="Reg" />
+    <!--  <ShellContent Route="Interests" ContentTemplate="{DataTemplate llc:Interests}" />  -->
+    </Shell>

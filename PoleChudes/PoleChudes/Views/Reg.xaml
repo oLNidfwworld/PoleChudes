@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PoleChudes.Views.Reg">
+    <ContentPage.Content>
+        <StackLayout  WidthRequest="300"  HorizontalOptions="Center">
+            <Label TextColor="#000" FontSize="30" HorizontalTextAlignment="Center" Text="Поле говна"></Label>
+            <Entry x:Name="login" Placeholder="Логин" ></Entry>
+            <Entry x:Name="pass" Placeholder="Пароль" ></Entry>
+
+            <Button Clicked="Button_Clicked"  CornerRadius="20" Text="Регистрация"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
